@@ -1,0 +1,79 @@
+.viewport-header {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #container {
+        height: 30rem;
+        width: 20rem;
+        background-color: #021e47d1;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            height: fit-content;
+            margin-top: 4rem;
+
+            :first-child {
+                margin-bottom: 1.4rem;
+            }
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin: 0 auto;
+
+                label {
+                    font-size: medium;
+                    font-weight: 400;
+                    color: white;
+                    margin-bottom: 0.4rem;
+                }
+
+                input {
+                    height: 1.5rem;
+                    font-size: 1rem;
+                    font-weight: 400;
+                }
+            }
+
+            button {
+                height: 3rem;
+                width: 12rem;
+                margin: 0 auto;
+                margin-top: 2rem;
+                background-color: rgb(180, 150, 51);
+                border-radius: 1rem;
+                color: white;
+                font-weight: bold;
+            }
+
+            button:hover {
+                background-color: rgb(75, 102, 190) !important;
+                border: none;
+            }
+        }
+    }
+
+    div {
+        margin: auto;
+
+        .content {
+            height: 6rem;
+            width: 12rem;
+            background-color: white;
+            border-radius: 1rem;
+        }
+    }
+}
