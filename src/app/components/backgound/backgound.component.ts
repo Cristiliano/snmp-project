@@ -10,6 +10,6 @@ export class BackgoundComponent implements OnInit {
 
   ngOnInit(): void {
     let video = document.getElementById('bgvid') as HTMLVideoElement;
-    video.defaultPlaybackRate = 0.1;
+    video.defaultPlaybackRate = 1;
   }
 }
