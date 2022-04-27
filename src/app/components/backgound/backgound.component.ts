@@ -9,7 +9,7 @@ export class BackgoundComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    let video = document.getElementById('bgvid') as HTMLVideoElement;
-    video.defaultPlaybackRate = 1;
+    // let video = document.getElementById('bgvid') as HTMLVideoElement;
+    // video.defaultPlaybackRate = 1;
   }
 }
