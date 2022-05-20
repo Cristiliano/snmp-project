@@ -8,6 +8,7 @@ import { BackgoundComponent } from './components/backgound/backgound.component';
 import { InputContainerComponent } from './components/input-container/input-container.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { BlockGroupComponent } from './components/block-group/block-group.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     BackgoundComponent,
     InputContainerComponent,
+    BlockGroupComponent,
   ],
   imports: [
     BrowserModule,

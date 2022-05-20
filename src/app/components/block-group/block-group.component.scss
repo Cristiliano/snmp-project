@@ -1,0 +1,26 @@
+#names-group {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+    font-size: medium;
+    font-weight: 500;
+    z-index: 2;
+    color: white;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background-color: black;
+    padding: 1rem;
+
+    p {
+        margin: 4px;
+    }
+}
+
+#whrite-block {
+    top: 2.6rem;
+    left: 2.5rem;
+    background-color: white;
+    width: 7.5rem;
+    height: 7.5rem;
+    color: white;
+    position: absolute;
+}
