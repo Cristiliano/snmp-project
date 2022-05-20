@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Back
 
-This
+This project was generated with [Flask](https://flask.palletsprojects.com/en/2.1.x/) version 2.1
 
 ## Development server [Frontend]
 
@@ -22,8 +22,11 @@ configure your snmp. If you don't know, read the website:
 ### Second Step:
 
 Open your `CMD` and install Flask, CORS and Waitress with:
+
 `pip install Flask` >> Flask
+
 `pip install -U flask-cors` >> CORS
+
 `pip install waitress` >> Waitress
 
 ### Third Step:
