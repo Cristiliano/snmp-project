@@ -1,27 +1,31 @@
 # SnmpProject
 
+### Front
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
 
-## Development server
+### Back
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This
 
-## Code scaffolding
+## Development server [frontend]
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng serve --o` for a dev server. Wait and page is open to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Build
+## Development server [backend]
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### First Step:
 
-## Running unit tests
+configure your snmp. If you don't know, read the website:
+`https://www.makeuseof.com/install-and-configure-snmp-on-windows-10/#:~:text=SNMP%20is%20available%20as%20an,Provider%20and%20click%20on%20Install.Ao`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Second Step:
 
-## Running end-to-end tests
+Open your `CMD` and install Flask, CORS and Waitress with:
+`pip install Flask` >> Flask
+`pip install -U flask-cors` >> CORS
+`pip install waitress` >> Waitress
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Third Step:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Open with python in your cmd the document `serverFlask.py`. Navigate to `http://localhost:8889/`. The application print "Api it's works".

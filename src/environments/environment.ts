@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  webApiBaseUrl: 'http://localhost:8080/',
+  webApiBaseUrl: 'http://localhost:8889/',
   production: false,
 };
 
