@@ -16,8 +16,7 @@ Run `ng serve --o` for a dev server. Wait and page is open to `http://localhost:
 
 ### First Step:
 
-configure your snmp. If you don't know, read the website:
-`https://www.makeuseof.com/install-and-configure-snmp-on-windows-10/#:~:text=SNMP%20is%20available%20as%20an,Provider%20and%20click%20on%20Install.Ao`
+configure your snmp. If you don't know, read the website: [site_to-configure](https://www.makeuseof.com/install-and-configure-snmp-on-windows-10/#:~:text=SNMP%20is%20available%20as%20an,Provider%20and%20click%20on%20Install.Ao)
 
 ### Second Step:
 
